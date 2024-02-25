@@ -31,8 +31,8 @@ async function scrapeLinkedIn(companyList) {
   const isLoginPage = await page.$('#username') && await page.$('#password');
 
   if (isLoginPage) {
-    await page.type('#username', 'guptahemant65@gmail.com');
-    await page.type('#password', 'HMG@5520');
+    await page.type('#username', 'adityamca131298@gmail.com');
+    await page.type('#password', 'Adi@mca131298');
     await page.click('.login__form_action_container button');
   
     await page.waitForNavigation();
